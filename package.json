@@ -1,0 +1,20 @@
+{
+  "name": "esm-reload-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/hadeeb/esm-reload-repro.git",
+  "author": "Hadeeb Farhan <hadeebfarhan1@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack --watch",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-esm-plugin": "^0.8.0",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
